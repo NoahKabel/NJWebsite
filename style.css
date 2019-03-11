@@ -1,1 +1,24 @@
-<doctypeHTML!>
+body {
+  background: url('Background Picture.jpg') no-repeat;
+  background-color: color;
+  font-family: fantasy;
+} /*this is for the background picture and font the page will have*/
+ul {
+  margin:10px;
+  padding:10px;
+  list-style: none;
+} /* this is for the list structure */
+ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  opacity: 0.4;
+  line-height: 40px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration-color: black;
+} /*this is for the appearane of all the links on the home page*/
+ul li a {
+
+}
