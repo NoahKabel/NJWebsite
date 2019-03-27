@@ -1,17 +1,17 @@
 body {
-  background: url('Background Picture.jpg') no-repeat;
+  background: url('Background image 3.png') no-repeat;
   background-color: color;
   font-family: fantasy;
 } /*this is for the background picture and font the page will have*/
 ul {
-  margin:10px;
+  margin:20px;
   padding:10px;
   list-style: none;
 } /* this is for the list structure */
-ul li {
+/*ul li {
   float: left;
   width: 200px;
-  height: 40px;
+  height: 80px;
   background-color: white;
   opacity: 0.4;
   line-height: 40px;
@@ -37,4 +37,30 @@ th {
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+}
+.navigation{
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+ul.nav Li{
+  display: inline;
+}
+ul.nav{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+h1{
+  color: white;
+}
+h2{
+  color: white;
 }
