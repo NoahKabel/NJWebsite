@@ -1,0 +1,22 @@
+body {
+  background: url('Game Background Image.jpg') no-repeat;
+  background-color: color;
+  font-family: fantasy;
+} /*this is for the background picture and font the page will have*/
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: white;
+}
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+}
+p{
+  color: white;
+}
+h1{
+  color: white;
+}
